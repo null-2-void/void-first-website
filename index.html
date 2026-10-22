@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Void's Website Learning</title>
+    <meta charset="utf=8" />
+    <!--This below for the rel and the href for stylesheets is a premade css sheet of code. The link tag is self-closing but vscode made it close automatically (self closing meaning it doesn't need a closing tag. 
+    rel: specifies the relationship to the file we're linking.
+    href: is where we specify the folder path)
+    The link tag specifically links files and what the file's relationship is.-->
+    <link rel="stylesheet" href="css/simple.css" />
+    <!--The tutorial didn't say anything about the title tag but that's needed as well. No it did, I was just speed working-->
+    <!--Information about the website will go here! But this, HTML, Head, and body tags are neeeded to make a website-->
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+
+  <body>
+    <!--Stuff that you want to show up on the page, goes here!! -->
+    <header>
+      <nav>
+        <a href="index.html" aria-current="page">Home</a>
+        <!--aria stands for accessible rich internet applications.-->
+        <a href="about.html">About</a>
+        <a href="blog/index.html">Blog</a>
+        <a href="resume.html">Resume</a>
+        <a href="fun.html">FUN!!</a>
+      </nav>
+      <!--The header is like the BIG -->
+      <h1>Void's homepage</h1>
+    </header>
+
+    <main>
+      <p>
+        My name is Void. I enjoy making websites and this is my first one. Also
+        I smell really good!! @-@
+      </p>
+      <p>
+        Check out this sick ass music!!
+        <!--I really like how HTML organizes this so that 
+  It's wrapped around instead of being on the same line
+  It looks incredibly organized. Anyways, href is used for referencing the link. The text after the stuff in the "" is what the person on the web will see-->
+        <a
+          href="https://www.youtube.com/watch?v=jrLzz8XHtKY&list=RDjrLzz8XHtKY&start_radio=1"
+          >I really like fruiter aero music</a
+        >!!!
+      </p>
+
+      <h2>Here's a list of things I like!!</h2>
+      <ul>
+        <!--ul is a list that looks like bullet points, they're un-numbered.
+  For li, just imagine they're bulletpoints. ul determines what type of list it is, the li is the bulletpoints-->
+        <li>Retro Tech</li>
+        <li>Retro Games</li>
+        <li>Pixel Art</li>
+      </ul>
+
+      <h2>And here's a list of things I'm studying right now</h2>
+      <ol>
+        <!---ol is ordered list, so these will be numbered. li is still the same as above for the list.-->
+        <li>HTML & Frontend Development</li>
+        <li>Ubuntu Linux</li>
+        <li>Python Coding</li>
+      </ol>
+      <p>I'm a Computer Science Major and trans but we been knew.</p>
+
+      <!--img is used for,,, well images. You have to have the image in the folder of your website and it should be an image that you have ownership of.
+src is the link in the folder
+alt is the alt text.-->
+      <img
+        src="images/Sprite-study1.png"
+        alt="Pixel art that I did referencing an enemy from LOZ Link's Awakening"
+        width="100"
+      />
+    </main>
+
+    <footer>Just a goober in your PC, Void.</footer>
+  </body>
+</html>
