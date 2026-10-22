@@ -1,0 +1,24 @@
+:root{
+    --bg: rgb(73, 55, 105);
+}
+
+/*Dark Theme*/
+@media (prefers-color-scheme: dark) {
+    :root,
+    ::backdrop {
+        --sans-font: "Lucida Bright", "Times New Roman", serif;
+        color-scheme: dark;
+        --color-base: #7c6fff;
+        --color-complement: #f3ff70;
+        --color-triadic-1: #ff7c70;
+        --color-triadic-2: #70ff7c;
+        --color-analogous-1: #c370ff;
+        --color-analogous-2: #70acff;
+        --color-split-comp-1: #ffc370;
+        --color-split-comp-2: #acff70;
+        --color-tetradic-1: #ff70ac;
+        --color-tetradic-2: #70ffc4;
+        --color-lighter: #dad6ff;
+        --color-darker: #1f0aff;
+    }
+}
